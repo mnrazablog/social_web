@@ -9,7 +9,7 @@ SECRET_KEY = 'qmr%7=0w$#(8l@+fi1zq2_@1-+bfh^)h9-@4p6&9#$+4m=skz9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['social-web-lite.herokuapp.com']
+ALLOWED_HOSTS = ['http://social-web-lite.herokuapp.com/']
 
 
 # Application definition
