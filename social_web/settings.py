@@ -133,4 +133,4 @@ EMAIL_HOST_USER = "mdnraza19@gmail.com"
 EMAIL_HOST_PASSWORD = "mylove@mnraza"
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-SITE_ID =1
+SITE_ID = 1
