@@ -1,6 +1,50 @@
-{% extends 'social/base.html' %}
-{% block title %}AboutPage
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}About Us Page
 {% endblock title %}
 {% block content %}
-<h1>AboutPage</h1>
+
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-warning">About Us</h1>
+            <p class="text-justify text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    Machine Learning
+                </li>
+                <li class="list-group-item">
+                    Django & Python 
+                </li>
+                <li class="list-group-item">
+                    Core Java & Advanced Java
+                </li>
+                <li class="list-group-item">
+                    Php with MySql
+                </li>
+                <li class="list-group-item">
+                    Angular 8 with NodeJs
+                </li>    
+
+            </ul>
+            <p class="text-justify mt-3">
+                orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+        </div>
+
+        <div class="col-md-6 mt-4">
+        <iframe  width="600" height="340" src="https://www.youtube.com/embed/YXgczv3vHUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+
+    </div><!--end of row-->
+</div>
+
 {% endblock content %}

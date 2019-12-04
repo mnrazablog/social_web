@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container">
+	<div class="col-md-6 col-md-offset-3">
+		<h1 class="text-center text-warning">Sign Up Page</h1>
+        <form method="post" action=".">
+                {% csrf_token %}
+                {{ form|crispy }}
+
+                <input class="btn btn-primary btn-md" type="submit" value="Sign Up Here" />
+                <input type="hidden" name="next" value="{{ next }}" />
+                </form>
+
+        <p>Already a member? <a href="{% url 'auth_login' %}">Login Here</a>!</p>
+	</div>
+</div>
+
+{% endblock %}

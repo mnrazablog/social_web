@@ -1,6 +1,52 @@
-{% extends 'social/base.html' %}
+{% extends 'base.html' %}
 {% block title %}Contact Page
 {% endblock title %}
 {% block content %}
-<h1>Contact</h1>
+<h1 class="text-warning ml-3">Contact</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form class="form-group" method="post" action="">
+                <input type="text" name="name" placeholder="Name" class="form-control mb-2">
+                <input type="email" name="email" placeholder="Email" class="form-control mb-2">
+                 <input type="text" name="phone" placeholder="Phone" class="form-control mb-2">
+                <textarea class="form-control mb-2"  placeholder="Message" rows="10">
+                </textarea>
+                <button class=" btn btn-primary form-control">Submit</button>
+                
+            </form>  
+
+        </div>            
+        <div class="col-sm-6">
+           <strong> 
+             <span class="fa fa-map-marker fa-2x mx-2"> BTM 1st Stage, Bangalore, 560029,KA
+             </span><br><br>
+           </strong>
+           <strong> 
+             <span class="fa fa-phone fa-2x mx-2"> +91-700 480 5688
+             </span><br><br>
+           </strong>
+           <strong> 
+             <span class="fa fa-envelope fa-2x mx-2"> mnraza34@gmail.com
+             </span><br><br>
+           </strong>
+           <strong> 
+             <span class="fa fa-globe fa-2x mx-2"> socialweb.herokuapp.com
+             </span><br><br>
+           </strong>
+        </div>            
+    </div>
+</div>
+
+
+
+<embed class="embed-responsive-21by9">
+    
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3167.929281602195!2d84.12549311452136!3d24.28629937401037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398c6542196d77ff%3A0x71088fa23165f86d!2sThe%20Cloud%20Cart!5e1!3m2!1sen!2sin!4v1575362928330!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive"></iframe>
+</embed>
+
+
 {% endblock content %}
+
