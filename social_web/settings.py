@@ -9,7 +9,7 @@ SECRET_KEY = 'qmr%7=0w$#(8l@+fi1zq2_@1-+bfh^)h9-@4p6&9#$+4m=skz9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://social-web-lite.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -133,4 +133,4 @@ EMAIL_HOST_USER = "mdnraza19@gmail.com"
 EMAIL_HOST_PASSWORD = "mylove@mnraza"
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-SITE_ID =2
+SITE_ID =1
